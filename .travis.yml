@@ -16,4 +16,4 @@ before_script:
  - git clone --depth 1 https://github.com/TravaOpenJDK/openjdk-build.git
 script: 
  - source install-jdk.sh -f 10
- - bash -c 'cd openjdk-build.git && export LOG=info && ./makejdk-any-platform.sh --build-variant hotswap jdk11u'
+ - bash -c 'cd openjdk-build && export LOG=info && ./makejdk-any-platform.sh jdk11u'
