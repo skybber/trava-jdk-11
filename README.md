@@ -1,2 +1,2 @@
 # trava-build-11
-Build OpenJDK on Travis
+Build OpenJDK 11 on Travis
