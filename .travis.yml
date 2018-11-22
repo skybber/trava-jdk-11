@@ -13,7 +13,7 @@ matrix:
 before_script:
  - unset -v _JAVA_OPTIONS
  - wget https://github.com/sormuras/bach/raw/master/install-jdk.sh
- - git clone --depth 1 https://github.com/TravaOpenJDK/openjdk-build.git
+ - git clone --depth 1 https://github.com/skybber/openjdk-build.git
 script: 
  - source install-jdk.sh -f 10
  - bash -c 'cd openjdk-build && export LOG=info && ./makejdk-any-platform.sh jdk11u'
